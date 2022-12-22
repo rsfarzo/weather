@@ -37,7 +37,12 @@ $ rails server
 
 * Database initialization
 
-* How to run the test suite
+* How to run the test suites
+    bundle exec guard
+    or
+    rake test
+    or
+    bundle exec regtest
 
 * Services (job queues, cache servers, search engines, etc.)
 
