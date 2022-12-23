@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :users
   root 'static_pages#home' #"application#hello" leads to the creation of a Rails helper called root_url
   get 'static_pages/home'
   get 'static_pages/help'
