@@ -49,3 +49,6 @@ $ rails server
 * Deployment instructions
 
 * ...
+
+*Code to comment out embedded Ruby.
+    <%#= image_tag("kitten.jpg", alt: "Kitten") %>
