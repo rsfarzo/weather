@@ -3,32 +3,63 @@
 * {
     font-family: Arial, sans-serif;
   }
-footer {
-    margin-top: 45px;
+header {
+    margin-bottom: 15px;
     padding-top: 5px;
-    border-top: 1px solid #e47676;
-    background-color: cadetblue;
-    color: rgb(249, 249, 249);
+    border-bottom: 1px solid #fcfc58;
+    background-color: rgba(232, 224, 103, 0.856);
+    color: rgb(6, 6, 6);
   }
   
-  footer a {
+  header a {
     color: #555;
   }
   
-  footer a:hover {
-    color: #222;
+  header a:hover {
+    color: rgb(60, 168, 84);
   }
   
-  footer small {
+  header small {
     float: left;
   }
   
-  footer ul {
+  header ul {
     float: right;
     list-style: none;
   }
   
-  footer ul li {
+  header ul li {
+    float: left;
+    margin-left: 15px;
+  }
+  
+footer {
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid #50fd5e;
+    background-color: cadetblue;
+    color: rgb(249, 249, 249);
+  }
+  
+footer a {
+    color: #ffffff;
+  }
+  
+footer a:hover {
+    color: rgb(223, 217, 56);
+  }
+  
+footer small {
+    float: left;
+  }
+  
+footer ul {
+    float: right;
+    list-style: none;
+  }
+  
+footer ul li {
     float: left;
     margin-left: 15px;
   }
