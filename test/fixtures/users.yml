@@ -1,11 +1,11 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: trinrrrreeeeeg
-  email: My@String.net
-  password_digest: err4r4r4r4r444
+#one:
+ # name: trreeeeeg
+##  email: 'ly@ptring.net'
+#  password_digest: err4r4r4r4r444
 
-two:
-  name: MySt44554444ring
-  email: MySt@ring.com
-  password_digest: rtrtrtroirtoi4554
+# two:
+#   name: MySt444ring
+#   email: oypt@ring.com
+#  password_digest: rtrtrtroirtoi4554
