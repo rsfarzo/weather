@@ -1,5 +1,8 @@
 # README
-
+1. Sign up
+2. Log in
+3. Authenticate: ddevise
+4. Authorise: pendant
 ## Getting started
 
 To get started with the app, clone the repo and then install the needed gems:
@@ -44,7 +47,7 @@ $ rails server
     or
     bundle exec regtest
 
-* Services (job queues, cache servers, search engines, etc.)
+efalt* Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
 
