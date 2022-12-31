@@ -1,14 +1,8 @@
 <header class="header">
 <nav>
     <%= link_to "Home", root_path %>
-    <% if logged_in? %>
-     <%= link_to "Log out", logout_path, data: { "turbo-method": :delete } %>
-     <%= link_to "Profile", current_user %>
- <%= link_to "Profile", user_path(current_user) %>
-    <% else %>
-        <%= link_to "Log in", '/login' %>
-        <%= link_to "Sign up", "/signup" %>
-    <% end %>
+    |<%= link_to "Log in", '#' %>
+    |<%= link_to "Sign up", "/signup" %>
 </nav>
 </header>
   

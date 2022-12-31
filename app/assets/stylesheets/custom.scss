@@ -4,7 +4,7 @@
     font-family: Arial, sans-serif;
   }
 header {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     padding-top: 5px;
     border-bottom: 1px solid #fcfc58;
     background-color: rgba(232, 224, 103, 0.856);
@@ -139,4 +139,29 @@ aside {
 
 .gravatar_edit {
   margin-top: 15px;
+}
+
+/* Dropdown menu */
+
+.dropdown-menu.active {
+  display: block;
+}
+
+
+@media (max-width: 800px) {
+  footer {
+    small {
+      display: block;
+      float: none;
+      margin-bottom: 1em;
+    }
+    ul {
+      float: none;
+      padding: 0;
+      li {
+        float: none;
+        margin-left: 0;
+      }
+    }
+  }
 }
