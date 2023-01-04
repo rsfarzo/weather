@@ -20,4 +20,6 @@
  * require self specifies where in the loading sequence the CSS in application.css itself gets included.
  *= require_tree .
  *= require_self
+ *= require leaflet
  */
+ 

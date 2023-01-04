@@ -3,6 +3,28 @@
 * {
     font-family: Arial, sans-serif;
   }
+
+/* universal */
+
+body {
+  padding-top: 60px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
 header {
     margin-bottom: 5px;
     padding-top: 5px;
@@ -142,7 +164,6 @@ aside {
 }
 
 /* Dropdown menu */
-
 .dropdown-menu.active {
   display: block;
 }

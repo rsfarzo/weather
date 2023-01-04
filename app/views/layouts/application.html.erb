@@ -12,8 +12,10 @@
     <%= javascript_importmap_tags %>
   </head>
   <body>
-    <%= render 'layouts/navbar' %>
+    <%#= render 'layouts/navbar' %>
+    <%= render 'layouts/header' %>
     <div class="container">
+    
       <% flash.each do |message_type, message| %>
         <div class="alert alert-<%= message_type %>"><%= message %></div>
       <% end %>

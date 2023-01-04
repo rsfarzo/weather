@@ -3,13 +3,20 @@
 <html>
   <head>
     <title><%= full_title('') %></title>
+     <!-- link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/ -->
   </head>
   <body>
-    <h1>Sample App</h1>
-    <p>
-      This is the home page for the
-      <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-      sample application.
-    </p>
+ 
+    <%#= line_chart({"2021-01-01" => 2, "2021-01-02" => 3}) %>
+    <%= line_chart( [ ['A', 2] , ['B',3], ['C',1.2]  ]) %>
+    <!-- Make sure you put this AFTER Leaflet's CSS 
+ <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+    <div id="map">
+         <%= map(:center => { :latlng => [51.52238797921441, -0.08366235665359283], :zoom => 18  }) %>
+     </div>-->
   </body>
 </html>

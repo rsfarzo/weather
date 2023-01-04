@@ -2,3 +2,7 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 import "custom/menu"
+import "chartkick"
+import "Chart.bundle"
+//require('leaflet')
+//= require leaflet
