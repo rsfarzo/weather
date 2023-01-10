@@ -9,3 +9,12 @@
 #   name: MySt444ring
 #   email: oypt@ring.com
 #  password_digest: rtrtrtroirtoi4554
+michael:
+  name: Michael Example
+  email: michael@example.com
+  password_digest: <%= User.digest('password') %>
+
+archer:
+  name: Sterling Archer
+  email: duchess@example.gov
+  password_digest: <%= User.digest('password') %>

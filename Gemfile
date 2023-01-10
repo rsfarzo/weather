@@ -18,6 +18,8 @@ gem "bootsnap",        "1.12.0", require: false
 gem "chartkick"
 gem "leaflet-rails"
 
+gem "faker",           "2.21.0"
+
 group :development, :test do
   gem "sqlite3", "1.4.2"
   gem "debug",   "1.5.0", platforms: %i[ mri mingw x64_mingw ]

@@ -32,7 +32,7 @@ header {
     background-color: rgba(232, 224, 103, 0.856);
     color: rgb(6, 6, 6);
   }
-  
+.header_text {color:#fcfc58}
   header a {
     color: #555;
   }
@@ -198,4 +198,16 @@ aside {
 #session_remember_me {
   width: auto;
   margin-left: 0;
+}
+
+/* Users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
 }
