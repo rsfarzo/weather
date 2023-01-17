@@ -1,0 +1,34 @@
+<% provide(:title, "Weather") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+  </head>
+  <body>
+    <h1>Weather</h1>
+<%    
+require "http"
+metadata_response_s=HTTP.get("https://api.weather.gov/points/38.8894,-77.0352")
+require "json"
+metadata_json=JSON.parse(metadata_response_s) 
+# json is hash
+forecast_url_s=metadata_json.fetch("properties").fetch("forecast")
+forecast_response_s=HTTP.get(forecast_url_s)
+forecast_hourly_s=HTTP.get(forecast_url_s+"/hourly")
+forecast_json=JSON.parse(forecast_response_s)
+forecastHourly_json=JSON.parse(forecast_hourly_s)
+%>
+Updated: <%= forecastHourly_json.fetch("properties").fetch("updated") %>
+<%
+  nt={} 
+forecastHourly_json.fetch("properties").fetch("periods").each do |p| 
+  n=p.fetch("number")
+  t=p.fetch("temperature")
+  nt[n]=t
+  %>
+<%end%>
+<%=line_chart(nt)%>
+    <%#= line_chart({"2021-01-01" => 2, "2021-01-02" => 3}) %>
+    <%#= line_chart( [ ['A', 2] , ['B',3], ['C',1.2]  ]) %>
+  </body>
+</html>

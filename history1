@@ -1,0 +1,1135 @@
+    1  git push myapp 
+    2  git push myapp 
+    3  git push myapp a
+    4  mkdir msm_validations
+    5  cd msm_validations
+    6  git clone https://github.com/appdev-projects/msm-validations.git
+    7  ls
+    8  mv msm-validations ..
+    9  ls
+   10  cd ..
+   11  ls
+   12  rmdir msm_validations
+   13  cd msm-validations
+   14  ls
+   15  cd ..
+   16  cd vscode
+   17  ls
+   18  cd msm-validations
+   19  rbenv install 2.7.3
+   20  rbenv global 2.7.3
+   21  bundler -version
+   22  bundler --version
+   23  gem install bundler -v 1.3.0
+   24  bundle install
+   25  gem install libv8 -v '3.16.14.19\n'
+   26  gem install libv8 -v '3.16.14.19'
+   27  bin/setup
+   28  gem install libv8 -v '3.16.14.19' --source\n'https://rubygems.org/'
+   29  gem install libv8 -v '3.16.14.19' --source 'https://rubygems.org/'
+   30  bundle
+   31  sudo bundle
+   32  npm -version
+   33  npm -v
+   34  bundle
+   35  sudo bundle
+   36  brew install python@2
+   37  brew install python@2
+   38  python -V
+   39  /bin/bash -c "$(curl -fsSL https://github.com/alfredapp/dependency-scripts/raw/main/scripts/install-python2.sh)"\n
+   40  python -V
+   41  bundle
+   42  sudo bundle
+   43  gem install libv8 -v '3.16.14.19' --source 'https://rubygems.org/'
+   44  sudo gem install libv8 -v '3.16.14.19' --source 'https://rubygems.org/'
+   45  rails server
+   46  bundle install
+   47  sudo bundle install
+   48  rbenv global 3.1.2
+   49  rails server
+   50  rbenv rehash
+   51  rails server
+   52  bundle install
+   53  gem install libv8
+   54  bundle install
+   55  npm -v
+   56  rbenv global 2.7.3
+   57  bundle
+   58  gem install libv8 -v '3.16.14.19' --source 'https://rubygems.org/'
+   59  sudo gem install libv8 -v '3.16.14.19' --source 'https://rubygems.org/'
+   60  brew install v8@3.15
+   61   gem install libv8 -v '3.16.14.19' -- --with-system-v8
+   62  sudo  gem install libv8 -v '3.16.14.19' -- --with-system-v8
+   63  bundle install
+   64  gem install pg -v '1.3.5' --source 'https://rubygems.org/'
+   65  rails server
+   66  bundle install
+   67  sudo apt-get install postgresql-client libpq5 libpq-dev
+   68  sudo t install postgresql-client libpq5 libpq-dev
+   69  sudo  install postgresql-client libpq5 libpq-dev
+   70   install postgresql-client libpq5 libpq-dev
+   71  gem install pg
+   72    gem install pg -- --with-pg-include=/path/to/libpq-fe.h/ --with-pg-lib=/path/to/libpq.so/
+   73  curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/main/mac\n
+   74  sh mac 2>&1 | tee ~/laptop.log
+   75  exit
+   76  cd myapp
+   77  cd m
+   78  rails server
+   79  pwd
+   80  cd myapp
+   81  rails server
+   82  cd ../vs
+   83  cd ../vscode
+   84  ls
+   85  cd msm-validations
+   86  rails server
+   87  bundle install
+   88  gem install therubyracer -v '0.12.3\ngem install therubyracer -v '0.12.3
+   89  gem install therubyracer -v '0.12.3\ngem install therubyracer -v '0.12.3'\n'
+   90  gem install therubyracer -v '0.12.3\ngem install therubyracer -v '0.12.3'\n'
+   91  gem install therubyracer -v '0.12.3'
+   92  gem install therubyracer
+   93  gem install therubyracer -v '0.12.3' -- --with-system-v8
+   94  gem install therubyracer -v '0.12.3'  --with-system-v8
+   95  gem install therubyracer  -- --with-system-v8
+   96  brew install v8@3.15
+   97  sudo gem install therubyracer -v '0.12.3'
+   98  more /Users/robertsfarzo/.rbenv/versions/2.7.3/lib/ruby/gems/2.7.0/extensions/x86_64-darwin-21/2.7.0/therubyracer-0.12.3/mkmf.log
+   99  sudo gem install therubyracer -v '0.12.3'
+  100  bundle install
+  101  cd /
+  102  pwd
+  103  whereis 
+  104  whereis v8@3.15\n
+  105  set
+  106  find . -name "v8@3.15"
+  107  cd usr
+  108  cd local
+  109  cd opt
+  110  ls
+  111  cd v8@3.15
+  112  pwd
+  113  gem install therubyracer -v '0.12.3' -- --with-v8-dir=/usr/local/opt/v8@3.15
+  114  sudo gem install therubyracer -v '0.12.3' -- --with-v8-dir=/usr/local/opt/v8@3.15
+  115  bundle
+  116  cd ~/vscode
+  117  ls
+  118  cd msm-validations
+  119  bundle
+  120  rails server
+  121  cd ~
+  122  ls
+  123  cd Documents
+  124  ls
+  125  mkdir photogram-gui
+  126  cd photogram-gui
+  127  git remote set-url origin https://github.com/rsfarzo/photogram-gui.git
+  128  man git init
+  129  git init
+  130  git remote set-url origin https://github.com/rsfarzo/photogram-gui.git
+  131  git remote set-url origin master https://github.com/rsfarzo/photogram-gui.git
+  132  git remote set-url https://github.com/rsfarzo/photogram-gui.git
+  133  git remote set-url --add photogram-gui https://github.com/rsfarzo/photogram-gui.git
+  134  git remote set-url --add master https://github.com/rsfarzo/photogram-gui.git
+  135  git clone  https://github.com/rsfarzo/photogram-gui.git
+  136  ls
+  137  cd photogram-gui
+  138  ls
+  139  pwd
+  140  ls
+  141  pwd
+  142  cd ..
+  143  ls
+  144  rm -f photogram-gui
+  145  rm -fr photogram-gui
+  146  rmdir photogram-gui
+  147  ls
+  148  cd ,,
+  149  cd ..
+  150  rmdir photogram-gui
+  151  git clone  https://github.com/rsfarzo/photogram-gui.git
+  152  rm -rf photogram-gui/.git
+  153  rmdir photogram-gui
+  154  git clone  https://github.com/rsfarzo/photogram-gui.git
+  155  ls
+  156  cd photogram-gui
+  157  ls
+  158  git init
+  159  rails bin/server
+  160  ls
+  161  git add .
+  162  git status
+  163  git commit -m "Initial Commit"
+  164  git log
+  165  git push -u origin master 
+  166  bundle install
+  167  rake db:create
+  168  rake db:migrate
+  169  rails s
+  170  rails sample_data
+  171  bin/setup
+  172  sudo bin/setup
+  173  git init
+  174  git pull origin main
+  175  git pull origin master
+  176  git branch a
+  177  git add -A
+  178  git commit -m 'first'
+  179  git push
+  180  git add remote origin https://github.com/rsfarzo-appdev/msm-valid.git
+  181  git push -u origin a
+  182  pwd
+  183  pwd
+  184  git push origin master
+  185  git merge
+  186  git remote set-url origin https://github.com/rsfarzo/msm-validations.git
+  187  git push
+  188  git remote -v
+  189  pwd
+  190   cd ~/Documents
+  191  ls
+  192  cd photogram-gui
+  193  ls
+  194  rails sample_data
+  195  find . -name 'rails sample_data'
+  196  rails sample_data
+  197  rails sample_data --trace
+  198  rake
+  199  rails rake
+  200  rails config
+  201  rails sample_data --trace
+  202  bundle
+  203  rails sample_data --trace
+  204  bundle
+  205  rails sample_data 
+  206  bundle
+  207  bundle install --path vendor/bundle
+  208  bundle install --path vendor/bundle -- --with-v8-dir=/usr/local/opt/v8@3.15
+  209  set
+  210  export PATH="$PATH:/usr/local/opt/v8@3.15"
+  211  path
+  212  set
+  213  bundle install --path vendor/bundle
+  214  gem install libv8 -v '3.16.14.19' --source 'https://rubygems.org/'
+  215  sudo gem install libv8 -v '3.16.14.19' --source 'https://rubygems.org/'
+  216  bundle install --path vendor/bundle
+  217  brew install v8@3.16
+  218  brew install v8@3.15
+  219  sudo  gem install libv8 -v '3.16.14.19' -- --with-system-v8
+  220  gem install libv8 -v '3.16.14.19' -- --with-system-v8
+  221  sudo gem install libv8 -v '3.16.14.19' -- --with-system-v8
+  222  bundle install --path vendor/bundle
+  223  gem install libv8 -v '3.16.14.19'
+  224  brew install v8-315
+  225  gem install libv8 -v '3.16.14.19' -- --with-system-v8
+  226  sudo
+  227  su
+  228  gem install libv8 -v '3.16.14.19' -- --with-system-v8
+  229  exit
+  230  rails s
+  231  rails server
+  232  cd Documents/very-best-debug
+  233  sudo  gem install libv8 -v '3.16.14.19' -- --with-system-v8
+  234  sudo  gem install libv8 -v '3.16.14.19' 
+  235  sudo rails  gem install libv8 -v '3.16.14.19' -- --with-system-v8
+  236  history
+  237  vi ~/.bash_profile
+  238  source ~/.bash_profile
+  239  history
+  240  sudo gem install libv8 -v '3.16.14.19' -- --with-system-v8\n
+  241  bundle install
+  242  gem install therubyracer -v '0.12.3' -- --with-v8-dir=/usr/local/opt/v8@3.15\n
+  243  sudo gem install therubyracer -v '0.12.3' -- --with-v8-dir=/usr/local/opt/v8@3.15\n
+  244  bundle
+  245  sudo gem install therubyracer -v '0.12.3' -- --with-v8-dir=/usr/local/opt/v8@3.15\n
+  246  sudo gem install libv8 -v '3.16.14.19' -- --with-v8-dir=/usr/local/opt/v8@3.15
+  247  ls /usr/local/opt/v
+  248  bundle config build.libv8 --with-system-v8
+  249  sudo gem install libv8 -v '3.16.14.19' -- --with-v8-dir=/usr/local/opt/v8@3.15
+  250  sudo gem install libv8 -v '3.16.14.19' 
+  251  gem install libv8 -v '3.16.14.19' -- --with-system-v8
+  252  env \\n  CXX=clang++ \\n  GYPFLAGS=-Dmac_deployment_target=10.9 \\ngem install libv8 --version 3.16.14.19
+  253  brew install v8-315
+  254  brew install v8@3315
+  255  brew install v8@3.15
+  256  bundle config build.libv8 --with-system-v8\n\n
+  257  bundle
+  258  bundle install --path vendor/bundle             
+  259  gem install therubyracer -v '0.12.3' -- --with-v8-dir=/usr/local/opt/v8@3.15
+  260  sudo gem install therubyracer -v '0.12.3' -- --with-v8-dir=/usr/local/opt/v8@3.15
+  261  bundle
+  262  bundle |more
+  263  export CXX=clang++
+  264  export GYPFLAGS=-Dmac_deployment_target=10.15
+  265  sudo gem install therubyracer -v '0.12.3' -- --with-v8-dir=/usr/local/opt/v8@3.15
+  266  sudo gem install therubyracer -v '0.12.3' 
+  267  brew install v8@3.15
+  268  bundle config --local build.libv8 --with-system-v8
+  269  bundle config --local build.therubyracer --with-v8-dir=/usr/local/opt/v8@3.15
+  270  bundle install
+  271  rails server
+  272  cd Documents
+  273  ls
+  274  rails server
+  275  ls
+  276  ls myapp
+  277  mv myapp Documents
+  278  cd Documents
+  279  rm -rf .git
+  280  cd myapp
+  281  rm -rf .git
+  282  git init
+  283  ls
+  284  pwd
+  285  git add .
+  286  git commit -m "moved"
+  287  git remote add origin https://github.com/rsfarzo/myapp.git
+  288  git remote show origin
+  289  git push -u origin master
+  290  bin/server
+  291  rails server
+  292  rails server
+  293  bundle install
+  294  rails server
+  295  rails server
+  296  bundle
+  297  rails s
+  298  rails generate draft:resource actor name:string dob:date bio:text image:string
+  299  rails generate draft:resource director name:string dob:date bio:text image:string
+  300  bin/setup
+  301  bundle
+  302  rails generate draft:resource movie title:string year:integer duration:integer director_id:integer description:text image:string
+  303  rails generate draft:resource character name:string actor_id:integer movie_id:integer
+  304  rails generate draft:resource character name:string actor_id:integer movie_id:integer
+  305  rails s
+  306  rails sample_data
+  307  rake
+  308  rails generate draft:resource actor name:string dob:date bio:text image:string
+  309  rails generate draft:resource actor name:string dob:date bio:text image:string --force
+  310  rails generate draft:account user first_name:string last_name:string
+  311  rails generate draft:resource bookmark user_id:integer movie_id:integer
+  312  rails sample_data
+  313  bin/setup
+  314  bundle
+  315  bin/setup
+  316  sudo bin/setup
+  317  bundle
+  318  rails s
+  319  udo chown -R robertsfarzo $HOME/.asdf
+  320  sudo chown -R robertsfarzo $HOME/.asdf
+  321  ls /Users
+  322  sudo chown -R /Users/robertsfarzo $HOME/.asdf
+  323  sudo chown -R /Users/sfarzo $HOME/.asdf
+  324  sudo chown -R sfarzo $HOME/.asdf
+  325  ls -al
+  326  ls /users
+  327  cd /Users
+  328  cd robertsfarzo
+  329  ls -al
+  330  cd .rbenv
+  331  ls -al
+  332  sudo chown -R sfarzo .
+  333  sudo chown -R robertsfarzo .
+  334  pwd
+  335  cd ..
+  336  ls -al
+  337  ls
+  338  cd Documents
+  339  ls
+  340  cd msm-signin
+  341  bin/setup
+  342  sudo bin/setup
+  343  bundle
+  344  rails s
+  345  ls .git
+  346  git init
+  347  rails s
+  348  bin.setup
+  349  bin/setup
+  350  ls
+  351  cd MSM-signin
+  352  ls
+  353  rails s
+  354  rails db:migrate RAILS_ENV=development
+  355  rails db:migrate 
+  356   rails db:migrate RAILS_ENV=development
+  357  ls
+  358  pwd
+  359  cd Documents
+  360  l
+  361  ls
+  362  rm -rf msm-signin
+  363  rm -rf msm-signin-2
+  364  sudo rm -rf msm-signin-2
+  365  ls
+  366  apt install curl git\n
+  367  apt install curl git\n
+  368  exit
+  369  apt install curl git\n
+  370  set
+  371  echo $JAVA_HOME
+  372  apt install curl git\n
+  373  apt install curl git\n
+  374  echo $JAVA_HOME
+  375  cd /usr/local/opt/
+  376  cd v8@3.15
+  377  ls
+  378  ls -al
+  379  ls
+  380  cd bin
+  381  ls
+  382  cd /usr/local/opt/asdf
+  383  ls
+  384  pwd
+  385  ls -al
+  386  bundlel
+  387  bundle
+  388  which asdf
+  389  vi ~/.zshrc
+  390  bin/setup
+  391  sqlite3
+  392  ps -al
+  393  kill -9 6529
+  394  kill -9 6525
+  395  ls
+  396  sqlite3
+  397  irb
+  398  bin/setup
+  399  rbenv install 3.0.3
+  400  brew update && brew upgrade ruby-build
+  401  sudo apt update
+  402  brew update
+  403  bin/setup
+  404  ruby db:migrate
+  405  bin/setup
+  406  rbenv install 3.0.3
+  407   perl configdata.pm --dump   
+  408  sudo apt upgrade
+  409  bin/setup
+  410  vi  /Users/robertsfarzo/helper-methods/helper-methods/.ruby-version
+  411  rm  /Users/robertsfarzo/helper-methods/helper-methods/.ruby-version
+  412  bin/setup
+  413  vi  /Users/robertsfarzo/helper-methods/helper-methods/.ruby-version
+  414  bin/setup
+  415  rvm list rubies
+  416  gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB\n
+  417  sudo apt-get install software-properties-common\n
+  418   wget http://security.ubuntu.com/ubuntu/pool/main/a/apt/apt_1.0.1ubuntu2.17_amd64.deb -O apt.deb\n
+  419   apt install wget
+  420  sudo apt install default-jre
+  421  sudo  install pt
+  422  sudo  install apt
+  423  brew install apt
+  424  brew upgrade
+  425  brew update
+  426  xcoce-select --install
+  427  xcode-select --install
+  428  ruby --version\n
+  429  sudo apt-get install ruby-full\n
+  430  sudo yum install ruby
+  431  brew
+  432   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  433  irb
+  434  ruby c
+  435   brew install ruby
+  436  open -e ~/.zshrc
+  437  brew pin ruby
+  438  echo $PATH
+  439  rails new www
+  440  bundle
+  441  bundle Gemfile
+  442  man bundle
+  443  bundlge update
+  444  bundle update
+  445  bundle .
+  446  ./bundle 
+  447  cd www
+  448  bundle
+  449  bundle
+  450  rails s
+  451  git push
+  452  cd www
+  453  ls
+  454  git add .
+  455  git commit -m "?"
+  456  git push
+  457  rbenv global 3.1.2
+  458  ruby -v
+  459  brew upgrade ruby\n\n
+  460  brew update
+  461  rbenv install -l
+  462  echo $PATH
+  463  brew list
+  464  brew pin ruby
+  465  echo $PATH
+  466  brew list
+  467  brew deps --tree --installe
+  468  ruby -v
+  469  brew unpin ruby
+  470  brew install ruby
+  471  brew upgrade
+  472  brew update
+  473  ruby -v
+  474  rbenv install 3.1.2
+  475  rbenv install 3.1.2
+  476  rails -v
+  477  cd www
+  478  bundle
+  479  bundle
+  480  bundle
+  481  bundle info bcrypt
+  482  bundle info bcrypt-ruby
+  483  rails -v
+  484  rails g scafold user password:string name:string email:string mobile:string
+  485  rails g scaffold user password:string name:string email:string mobile:string
+  486  bundle
+  487  bundle info bcrypt
+  488  bundle install
+  489  bundle info bcrypt
+  490  rails s
+  491  rails generate migration AddPasswordDigestToUsers password_digest: string\n
+  492  rails generate migration AddPasswordDigestToUsers password_digest: string
+  493  rails s
+  494  cd www
+  495  rails generate migration AddPasswordDigestToUsers password_digest: string
+  496  rails db:migrate
+  497  rails s
+  498  rm Gemfile.lock
+  499  bundle
+  500  rails s
+  501  cd www
+  502  rails s
+  503  ps
+  504  kill -9 5457
+  505  ra
+  506  gem install bundler
+  507  bundle
+  508  bundle info bcrypt
+  509  bundle install bcrypt
+  510  bundle install "bcrypt"
+  511  gem install "bcrypt"
+  512  bundle
+  513  bundle info bcrypt
+  514  rails db:migrate
+  515  rails db:migrate
+  516  rails c
+  517  rails c
+  518  irb
+  519  honebrew update
+  520  homebrew update
+  521  brew update
+  522  brew upgrade
+  523  ruby -ver
+  524  ruby -v
+  525  softwareupdate -l\n
+  526  sqlite
+  527  sqlite3
+  528  cd rails-from-zero
+  529  cd www
+  530  cd app
+  531  cd views
+  532  ls
+  533  ls -al
+  534  pwd
+  535  ls
+  536  cd www
+  537  rails g scaffold n name:string
+  538  rails db:migrate
+  539  rails routes |more
+  540  rails destroy model n
+  541  rails db:migrate
+  542  rails db:migrate
+  543  rails g migration add_zip_to_users zip_id:integer
+  544  rails generate scaffold zip code:integer
+  545  rails generate scaffold zip code:string
+  546  rails generate scaffold zip code:string --force
+  547  rails generate scaffold neighborhood zip:integer name:string
+  548  rails db:migrate
+  549  ruby -v
+  550  rails s
+  551  cd www
+  552  rails s
+  553  rails s
+  554  rails s
+  555  rails db:migrate
+  556  bundle
+  557  rails s
+  558  rails c
+  559  cd www
+  560  rails c
+  561  homebrew update
+  562  brew update
+  563  brew upgrade
+  564  cd www
+  565  git push
+  566  git pull
+  567  git config pull.rebase false
+  568  git pull
+  569  git push --force
+  570  git push
+  571  git add .
+  572  git commit -m'w7'
+  573  git push
+  574  rails s
+  575  rails s
+  576  rails db:migrate
+  577  rails s
+  578  cd www
+  579  rails c
+  580  rails c
+  581  rails c
+  582  rails c
+  583  rails db:migrate
+  584  rails c
+  585  rails db:migrate
+  586  rename_column :resident, :zip, :zip_id\n
+  587  rails rename_column :resident, :zip, :zip_id\n
+  588  rails db:migrate
+  589  cd www
+  590  rails generate model users
+  591  rails generate model user
+  592  rails generate model user --force
+  593  rails db:migrate
+  594  rails generate draft:account resident 
+  595  rails generate account resident 
+  596  rails generate scaffold user 
+  597  rails generate scaffold user  --force
+  598  rails db:migrate
+  599  rails db:migrate
+  600  rails db:migrate
+  601  rails g scaffold resident name:string zip:integer
+  602  rails db:migrate
+  603  rails s
+  604  cd www
+  605  cd www
+  606  rails s
+  607  rails s
+  608  rails s
+  609  rails s
+  610  cd www
+  611  rails generate migration add_password_digest_to_resident password_digest:string
+  612  rails db:migrate
+  613  generate migration FixColumnName
+  614  rails generate migration FixColumnName
+  615  rails db:migrate
+  616  rails db:migrate
+  617  ails generate migration add_password_to_resident password:string
+  618  rails generate migration add_password_to_resident password:string
+  619  rails db:migrate
+  620  rails generate migration add_password_digest_to_resident password_digest:string
+  621  rails db:migrate
+  622  rails db:migrate
+  623  ails generate migration add_password_digest_to_resident password_digest:string
+  624  rails generate migration add_password_digest_to_resident password_digest:string
+  625  rails db:migrate
+  626  rails c
+  627  www/rails c
+  628  cd www
+  629  www/rails c
+  630  rails c
+  631  cd www
+  632  rails c
+  633  rails c
+  634  rails c
+  635  rails c
+  636  rails c
+  637  pwd
+  638  ls
+  639  cd www
+  640  rails generate model  author name:string
+  641  rails g model book title:string
+  642  rails db:migrate
+  643  rails generate migration add_author_id_to_books author_id:integer
+  644  rails db:migrate
+  645  rails generate migration change_column_null :books, :author_id, false
+  646  rails generate migration change_column_null :book, :author_id, false
+  647  rails generate migration change_column_null :book :author_id, false
+  648  rails generate migration change_column_null :books :author_id, false
+  649  rails generate migration change_column_null
+  650  rails db:migrate
+  651  rails g model publisher name:string
+  652  rails generate migration add_publisher_id_to_books publisher_id:integer
+  653  rails db:migrate
+  654  pwd
+  655  ls
+  656  bundle
+  657  more bin/server
+  658  rails s
+  659  ls
+  660  bundle
+  661  ruby -v
+  662  ruby -version
+  663  env
+  664  ruby -v
+  665  rails
+  666  rails
+  667  rails
+  668  rbenv
+  669  rbenv install 3.0.3
+  670  bundle
+  671  brew install graphviz
+  672  brew update
+  673  brew upgrade
+  674  brew update
+  675  bundle
+  676  rails s
+  677  rails generate scaffold task title:string description:text complete:boolean
+  678  rails db:migrate
+  679  rails db:migrate
+  680  ls
+  681  rake db:migrate
+  682  rake db:drop:all
+  683  bin/setup
+  684  bin/setup
+  685  rake db:migrate
+  686  vi ~/.zsh
+  687  source ~/.zsh
+  688  echo
+  689  env
+  690  rails db:migrate
+  691  gem install pg -- --with-pg-config=/usr/local/bin/pg_config
+  692  rails db:migrate
+  693  gem 'pg'
+  694  bundle
+  695  rails db:migrate
+  696  rails db:migrate
+  697  rails db:migrate
+  698  rails db:migrate
+  699  brew update
+  700  rails db:migrate
+  701  rails db:migrate
+  702  brew install services
+  703  postgres -V
+  704  createuser -P -d appname
+  705  createuser -P -d appname
+  706  createuser -P -d appname
+  707  rails db:migrate
+  708  rails db:migrate
+  709  rails db:migrate
+  710  rails db:migrate
+  711  rails db:migrate
+  712  bundle
+  713  rails g devise:install
+  714  rails g devise user first_name:string last_name:string
+  715  rails g migration 'Add a presence validation to the title column of tasks'
+  716  rails g migration Add_presence_validation_title_columm_of_tasks
+  717  rails db:migrate
+  718  rails db:migrate
+  719  rails db:migrate
+  720  rails s
+  721  rails db:migrate
+  722  rails db:migrate
+  723  rails s
+  724  rails db:migrate
+  725  rails s
+  726  rails g migration AddUserIdToTasks user:belongs_to
+  727  rails db:migrate
+  728  rails s
+  729  /Library/PostgreSQL/15/scripts/runpsql.sh; exit
+  730  rm -rf bootstrap-levels
+  731  ls bootstrap-levels
+  732  more bootstrap-levels/Dockerfile
+  733  ruby -b
+  734  which ruby
+  735  rvm -v
+  736  ls /usr/local/opt/ruby
+  737  sudo service postgresql restart
+  738  psql
+  739  psql
+  740  sudo su - postgres
+  741  ls
+  742  ls *.zip
+  743  pwd
+  744  mv Documents/app-master\ \(1\).zip .
+  745  ls
+  746  unzip app-master\ \(1\).zip
+  747  ls
+  748  rails g devise:install
+  749     config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }\n
+  750  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }\n
+  751  rails g devise member
+  752  rails g devise:views
+  753  cd ..
+  754  rails new app
+  755  mv app/* .
+  756  mv -r app/* .
+  757  ls app
+  758  cd app
+  759  ls -al
+  760  cd ..
+  761  rm -rf app
+  762  cd ..
+  763  rm -rf scaffold
+  764  ls
+  765  cd app-master
+  766  ls
+  767  cd app
+  768  ls views
+  769  ls views/users
+  770  cd ..
+  771  cd .
+  772  cd ..
+  773  pwd
+  774  rails g scaffold
+  775  irb
+  776  rails c
+  777  rails c
+  778  rails s
+  779  rails db:migrate
+  780  rails s
+  781  rails s
+  782  rails s
+  783  rails s
+  784  rails g devise user
+  785  rails g devise user
+  786  rails s
+  787  rails db:migrate
+  788  rails s
+  789  rails generate migration drop_user
+  790  rails generate migration drop_users
+  791  rails generate migration drop_user
+  792  rails db:migrate
+  793  rails generate migration drop_user
+  794  rails db:migrate
+  795  rails db:migrate
+  796  rails db:migrate
+  797  rails s
+  798  bundle
+  799  brew update
+  800  brew upgrade
+  801  brew update
+  802  bundle
+  803  rails s
+  804  rails g devise user first_name:string last_name:string
+  805  rails db:migrate
+  806  rails db:migrate
+  807  rails generate devise:views
+  808  rails db:migrate
+  809  rails destroy devise:users
+  810  rails destroy devise:user
+  811  rails db:migrate
+  812  rails g migration changeUserColumnname
+  813  rails db:migrate
+  814  rails s
+  815  rails g devise:install\n
+  816  rails s
+  817  bin/setup
+  818  bin/setup
+  819  bin/setup
+  820  rails generate scaffold task title:string description:text complete:boolean
+  821  rails g devise:install\n
+  822  rails g devise:views
+  823  bundle
+  824  rails g devise user first_name:string last_name:string
+  825  rails g migration AddUserIdToTasks user:belongs_to
+  826  rails db:migrate
+  827  rails s
+  828  rails s
+  829  rails s
+  830  rails s
+  831  bin/config
+  832  bin/setup
+  833  bundle
+  834  bin/setup
+  835  rails db:migrate
+  836  rails sample_data
+  837  rails s
+  838  sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+  839  ls
+  840  rails -v
+  841  ruby -v
+  842  rails g devise:views
+  843  rails -v
+  844  bin/setup
+  845  bundle
+  846  rails generate devise:install
+  847  bundle
+  848  bundle
+  849  git remote -v
+  850  bundle
+  851  rails generate devise user username private:boolean likes_count:integer comments_count:integer
+  852  rails db:migrate
+  853  rails generate migration default_values_to_user
+  854  rails db:migrate
+  855  rails db:migrate
+  856  rails g devise:views
+  857  rails s
+  858  rails s
+  859  rails generate scaffold photo image comments_count:integer likes_count:integer caption:text owner:references
+  860  rails db:migrate
+  861  rails generate scaffold photo image comments_count:integer likes_count:integer caption:text owner:references
+  862  rails db:migrate
+  863  rails generate scaffold photo image comments_count:integer likes_count:integer caption:text owner:references
+  864  rails db:rollback
+  865  rails generate scaffold photo image comments_count:integer likes_count:integer caption:text owner:references
+  866  rails generate scaffold photo image comments_count:integer likes_count:integer caption:text owner:references --force
+  867  rails db:rollback
+  868  rails db:rollback step=1
+  869  rails db:rollback db/migrate/20221128223110_create_photos.rb
+  870  rails db:migrate
+  871  rails generate migration add_nickname_to_users nickname:string
+  872  rials db:migrate
+  873  rails db:migrate
+  874  rails generate migration add_salu_to_users nickname:string default:"M."
+  875  rails db:migrate
+  876  rails db:migrate
+  877  rails db:migrate
+  878  rails db:migrate
+  879  gem 'google-api-client', require: 'google/apis/calendar_v3'
+  880  buundle
+  881  bundle
+  882  rails s
+  883  bundle
+  884  rails s
+  885  rails s
+  886  bundle
+  887  rails s
+  888  gem install three
+  889  rails s
+  890  bin/setup
+  891  rails c
+  892  ls test/controllers/
+  893  rails db:migrate
+  894  rails test
+  895  rails test
+  896  rails test
+  897  rails routes
+  898  find . -name test_helper
+  899  rails test
+  900  rails test
+  901  rails test
+  902  rails test
+  903  rails test
+  904  rails test
+  905  rails test
+  906  rails s
+  907  bundle _2.3.14_ exec guard
+  908  bundle _2.3.14_ exec guard
+  909  git checkout main
+  910  rails test
+  911  bundle _2.3.14_ exec guard init
+  912  rails test
+  913  rails test
+  914  ruby c
+  915  ruby console
+  916  pwd
+  917  rails c
+  918  git checkout -b rails-flavored-ruby
+  919  rails s
+  920  cd ..
+  921  git clone https://github.com/learnenough/rails_tutorial_sample_app_7th_ed 
+  922  ls
+  923  cd rails_tutorial_sample_app_7th_ed
+  924  ls
+  925  cat .ruby-version
+  926  tail -n1 Gemfile.lock
+  927  rails generate scaffold User name:string email:string\n
+  928  ls
+  929  touch script.rb
+  930  ruby c
+  931  ls
+  932  rails c
+  933  rails c
+  934  irb
+  935  curl -o app/assets/images/rails.svg -L https://cdn.learnenough.com/rails.svg
+  936  irb
+  937  rails c
+  938  rails db:migrate
+  939  rails c
+  940  rails test
+  941  rake test
+  942  bundle exec guard
+  943  rails s
+  944  touch app/assets/stylesheets/custom.scss
+  945  bundle
+  946  rails generate integration_test site_layout
+  947  git add -A
+  948  git commit -m "Finish layout and routes"
+  949  git checkout main
+  950   git merge filling-in-layout
+  951  git branches
+  952  git branch
+  953   git merge rails-flavored-ruby
+  954   git checkout -b modeling-users
+  955  rails c
+  956  rails c --sandbox
+  957  rails c 
+  958  rails db:migrate
+  959  rails c
+  960  rails c --sandbox
+  961  rails c --sandbox
+  962  rails c --sandbox
+  963  rails c 
+  964  rails generate migration add_index_to_users_email
+  965  rails db:migrate
+  966  git branch
+  967   rails generate migration add_password_digest_to_users password_digest:string
+  968  rails db:migrate
+  969  bundle _2.3.14_ install
+  970  rails c
+  971  rails c
+  972  bundle exec guard
+  973  rails s
+  974  rails s
+  975  rails s
+  976  rails s
+  977  rails s
+  978  rails s
+  979  rails s
+  980  git add -A
+  981  git commit -m "Make a basic User model (including secure passwords)"
+  982  git checkout main
+  983  git merge modeling-users
+  984  git push
+  985  bundle exec guard
+  986  rails c
+  987  rails s
+  988  rails s
+  989  git checkout -b sign-up
+  990  _error_messages.html.erb_error_messages.html.erb
+  991  _error_messages.html.erb_error_messages.html.erb
+  992  rails generate integration_test users_signup
+  993  bundle exec guard
+  994  rails s
+  995  rails c
+  996  ls
+  997  find . -name "grade"
+  998  ls
+  999  cd msm-log-in
+ 1000  find . -name "grade"
+ 1001  rails s
+ 1002  rails s
+ 1003  rails s
+ 1004  rails test
+ 1005  \tgit add -a
+ 1006  \tgit add -A
+ 1007  git commit -m 'ch 8 basic login'
+ 1008  git commit -m "ch 8 basic login"
+ 1009  git checkout main
+ 1010  git merge basic-login
+ 1011  rails s
+ 1012  rails c
+ 1013  bundle exec guard
+ 1014  rails importmap:install turbo:install stimulus:install
+ 1015  rails db:migrate
+ 1016  mkdir app/javascript/custom
+ 1017  touch app/javascript/custom/menu.js
+ 1018  rails db:migrate
+ 1019  git commit -m "Finish user signup"
+ 1020  git commit -A
+ 1021  git add -A
+ 1022  git commit -m "Finish user signup"
+ 1023  git checkout main
+ 1024  git merge sign-up
+ 1025  $ git checkout -b basic-login\n
+ 1026  git checkout -b basic-login\n
+ 1027  rails generate controller Sessions new
+ 1028  rails routes | grep 'session'
+ 1029  u=User.first
+ 1030  u.authenticate(false)
+ 1031  u
+ 1032  rails c
+ 1033  git checkout -b advanced-login
+ 1034  bundle
+ 1035  bundle info chartkick
+ 1036  rails s
+ 1037  bundle
+ 1038  rails s
+ 1039  rails s
+ 1040  rails s
+ 1041  rails generate migration add_remember_digest_to_users remember_digest:string\n
+ 1042   rails db:migrate
+ 1043  rails c
+ 1044  rails paths
+ 1045  rails c
+ 1046  rails test
+ 1047  rails test
+ 1048  rails test
+ 1049  rails test
+ 1050  rails test
+ 1051  rails test
+ 1052  rails test
+ 1053  rails test
+ 1054  rails c
+ 1055  rails test
+ 1056  git add -A
+ 1057  git commit -m "Implement advanced login, no test"
+ 1058  git checkout main
+ 1059  git merge advanced-login
+ 1060  git push
+ 1061  irb
+ 1062  rails s
+ 1063  vi ~/.zshrc
+ 1064  rn ~/.zshenv
+ 1065  rnm ~/.zshenv
+ 1066  rm ~/.zshenv
+ 1067  rials c
+ 1068  rails c
+ 1069  more ~/.zshrc
+ 1070  echo 'export POSTGRES_USER=postgres' >> ~/.zshenv
+ 1071  echo 'export POSTGRES_PASSWORD=pwd' >> ~/.zshenv
+ 1072  more ~/.zshrc
+ 1073  more ~/.zshenv
+ 1074  echo $POSTGRES_USER
+ 1075  source ~/.zshrc
+ 1076  echo $POSTGRES_USER
+ 1077  source ~/.zshenv
+ 1078  echo $POSTGRES_USER
+ 1079  echo 'export POSTGRES_PASSWORD=pwd' >> ~/.zshrc
+ 1080  echo 'export POSTGRES_USER=postgres' >> ~/.zshrc
+ 1081  git checkout -b updating-users\n
+ 1082  rails routes | grep 'user'
+ 1083  rails c
+ 1084  rails s
+ 1085  rails c
+ 1086  rails c
+ 1087  rails generate integration_test users_edit
+ 1088  rails test
+ 1089  rails test
+ 1090  rails test
+ 1091  rails test
+ 1092  rails test
+ 1093  rails test
+ 1094  rails test
+ 1095  rails test
+ 1096  rails test
+ 1097  rails test
+ 1098  rails test
+ 1099  rails test
+ 1100  rails test
+ 1101  rails test
+ 1102  rails test
+ 1103  rails test
+ 1104  rails test
+ 1105  rails test
+ 1106  rails test
+ 1107  rails test
+ 1108  rails test
+ 1109  rails test
+ 1110  rails test
+ 1111  rvm install "ruby-3.0.3"
+ 1112  rvm install "ruby-3.0.3"
+ 1113  rvm install "ruby-3.0.3"
+ 1114  rvm install "ruby-3.0.3"
+ 1115  rvm install "ruby-3.0.3"
+ 1116  bundle
+ 1117  bundle
+ 1118  init
+ 1119  rails init
+ 1120  bundle exec rails -v 
+ 1121  rails s
+ 1122  history
+ 1123  history | grep 'guard'
+ 1124  man history
+ 1125  history -a
+ 1126  bundle
+ 1127  bundle _2.3.14_ install
+ 1128  rails db:seed
+ 1129  rails db:seed
+ 1130  rails db:seed
+ 1131  rails db:seed
+ 1132  rails db:seed
+ 1133  rails db:seed
+ 1134  more ~/.zshrc
+ 1135  history 1

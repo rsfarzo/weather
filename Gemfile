@@ -19,12 +19,16 @@ gem "chartkick"
 gem "leaflet-rails"
 
 gem "faker",           "2.21.0"
-
+gem "will_paginate",           "3.3.1"
+gem "bootstrap-will_paginate", "1.0.0"
+# bundle _2.3.14_ install
+gem "http"
+######################################################
 group :development, :test do
   gem "sqlite3", "1.4.2"
   gem "debug",   "1.5.0", platforms: %i[ mri mingw x64_mingw ]
 end
-
+# ...........................
 group :development do
   gem "web-console", "4.2.0"
 end
