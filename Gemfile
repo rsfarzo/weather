@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
 
-gem "rails",           "7.0.4"
+gem "rails",           ">= 7.0.4.1"
 gem "bcrypt",          "3.1.18"
 gem "bootstrap-sass",  "3.4.1" # for b/s
 gem "sassc-rails",     "2.1.2"
@@ -54,3 +54,13 @@ end
 # gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Use Redis for Action Cable
 gem "redis", "~> 4.0"
+
+
+# security alert response:
+gem "railties", ">= 7.0.4.1"
+gem "activesupport", ">= 7.0.4.1"
+gem "activemodel", ">= 7.0.4.1"
+gem "activejob", ">= 7.0.4.1"
+gem "actionpack", ">= 7.0.4.1"
+gem "actionview", ">= 7.0.4.1"
+gem "activerecord", ">= 7.0.4.1"
