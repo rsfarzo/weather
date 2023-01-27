@@ -6,8 +6,36 @@
   </head>
   <body>
     <h1>Weather</h1>
-    <strong>Button: view, add,remove up to 4 favorites</strong>
-    New active records: geo locations of 3000+ cities, favorites (1 User to many Geos)
+    <strong>Button: get weather
+    New active records: 30k cities, favorites (1 User to many Geos)
+    </strong>
+    <br>
+  <label for="location">
+	City State (example: New York, NY) 
+	<input id="location" list="citystatelist"  onchange="get_location(this)">
+	<datalist id="citystatelist" >
+  <#% City.distinct.pluck(:state).sort.each do |state|%>
+   <% City.order(state: :asc, name: :asc).each do |city|%>
+		<option id="<%= city.lng+","+city.lat%>" value="<%= city.name+", "+city.state %>"></option>
+  <% end %>
+	</datalist>
+</label>
+<p id="selected_location"></p>
+<script>
+var citystateoptions = document.getElementById("citystatelist").options;
+function get_location(input_loc) {
+   let geo=null;
+   for(each of citystateoptions) {
+    if (each.value===input_loc.value) { geo=each.id; break;}
+   }
+   if(geo==null) {
+    document.getElementById("selected_location").innerHTML="Select a valid location from the list";
+   }
+   else {
+    document.getElementById("selected_location").innerHTML=input_loc.value+ " "+ geo;
+   }
+}
+</script>
 <%    
 require "http"
 metadata_response_s=HTTP.get("https://api.weather.gov/points/38.8894,-77.0352")
