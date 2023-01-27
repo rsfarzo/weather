@@ -4,13 +4,13 @@
 </head>
 <body>
 <% provide(:title, 'Weather Report') %>
-<h1>Weather</h1>
+<!--h1>Weather</h1-->
 <%= link_to 'Back', :back %>
-<br>
-Geo-Location:
+<div>
+Location:
 <% lat_long = "#{@city.lat},#{@city.lng}"  %>
 <%= "#{@city.name} #{@city.state}  #{lat_long}" %>
-<hr>
+</div>
 <%    
 require "http"
 url="https://api.weather.gov/points/#{lat_long}"

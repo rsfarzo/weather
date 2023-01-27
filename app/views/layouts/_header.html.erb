@@ -1,33 +1,27 @@
-<header class="navbar navbar-fixed-top navbar-inverse">
-  <div class="container">
-    <%= link_to "sample app", root_path, id: "logo" %>
-    <nav>
-      <div class="navbar-header">
-        <button id="hamburger" type="button" class="navbar-toggle collapsed">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <ul id="navbar-menu"
-          class="nav navbar-nav navbar-right collapse navbar-collapse">
-             <% if logged_in? %>
-       <span class="header_text"><%= @current_user.name %> </span>
-     <% end %>
-
-        <li><%= link_to "Home", root_path %></li>
-        <li><%= link_to "Help", help_path %></li>
-        <li><%= link_to "About", about_path %></li>
-        <li><%= link_to "Contact", contact_path %></li>      
-        <% if logged_in? %>
-          <li><%= link_to "Weather", weather_path %></li>
-          <li><%= link_to "Users", users_path %></li>
-          <li class="dropdown">
-            <a href="#" id="account" class="dropdown-toggle">
-              Account <b class="caret"></b>
-            </a>
-            <ul id="dropdown-menu" class="dropdown-menu">
+<header>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <!--div class="container"-->
+  <!--div class="navbar-brand">
+    <%= link_to "Weather", root_path, id: "logo" %>
+  </div-->
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item"><%= link_to "Home", root_path, id: "logo" %>
+      <li class="nav-item"><%= link_to "About", about_path %></li>
+      <% if logged_in? %>
+        <li class="nav-item"><%= link_to "Weather", weather_path %></li>
+        <li class="nav-item"><%= link_to "Users", users_path %></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          Account
+          </a>
+          <div class="dropdown-menu">
+          <li>
               <li><%= link_to "Profile", current_user %></li>
               <li><%= link_to "Settings", edit_user_path(current_user) %></li>
               <li class="divider"></li>
@@ -36,11 +30,13 @@
                                        data: { "turbo-method": :delete } %>
               </li>
             </ul>
-          </li>
-        <% else %>
-          <li><%= link_to "Log in", login_path %></li>
-        <% end %>
-      </ul>
-    </nav>
+          </div>
+        </li>
+        <li class="header_text"><%= @current_user.name %></li>
+      <% else %>
+        <li><%= link_to "Log in", login_path %></li>
+      <% end %>
+    </ul>
   </div>
+</nav>
 </header>

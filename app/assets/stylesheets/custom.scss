@@ -1,4 +1,4 @@
-@import "bootstrap-sprockets";
+//@import "bootstrap-sprockets";
 @import "bootstrap";
 * {
     font-family: Arial, sans-serif;
@@ -30,11 +30,14 @@ header {
     padding-top: 5px;
     border-bottom: 1px solid #fcfc58;
     background-color: rgba(232, 224, 103, 0.856);
-    color: rgb(6, 6, 6);
+    color: rgb(76, 144, 180);
   }
-.header_text {color:#fcfc58}
-  header a {
-    color: #555;
+.header_text {
+  color:#fcfc58; 
+  font-size: small; 
+}
+header a {
+    color: rgb(118, 153, 191);
   }
   
   header a:hover {
@@ -120,9 +123,9 @@ input {
 }
 
 .field_with_errors {
-  @extend .has-error;
+  //@extend .has-error  !optional ;
   .form-control {
-    color: $state-danger-text;
+    color: red;
   }
 }
 
@@ -209,7 +212,7 @@ aside {
   li {
     overflow: auto;
     padding: 10px 0;
-    border-bottom: 1px solid $gray-lighter;
+    border-bottom: 1px solid gray;
   }
 }
  
