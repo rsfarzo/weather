@@ -1,9 +1,5 @@
 <header>
-<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-  <!--div class="container"-->
-  <!--div class="navbar-brand">
-    <%= link_to "Weather", root_path, id: "logo" %>
-  </div-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Toggler/collapsibe Button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
@@ -15,24 +11,14 @@
       <li class="nav-item"><%= link_to "About", about_path %></li>
       <% if logged_in? %>
         <li class="nav-item"><%= link_to "Weather", weather_path %></li>
-        <li class="nav-item"><%= link_to "Users", users_path %></li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-          Account
-          </a>
-          <div class="dropdown-menu">
-          <li>
-              <li><%= link_to "Profile", current_user %></li>
-              <li><%= link_to "Settings", edit_user_path(current_user) %></li>
-              <li class="divider"></li>
-              <li>
-                <%= link_to "Log out", logout_path,
-                                       data: { "turbo-method": :delete } %>
-              </li>
-            </ul>
-          </div>
-        </li>
+        <li class="nav-item"><%= link_to "Users", users_path %></li> 
         <li class="header_text"><%= @current_user.name %></li>
+        <li class="nav-item"><%= link_to "Profile", current_user %></li>
+        <li class="nav-item"><%= link_to "Settings", edit_user_path(current_user) %></li>
+        <li class="nav-item">
+          <%= link_to "Log out", logout_path,
+                                  data: { "turbo-method": :delete } %>
+        </li>
       <% else %>
         <li><%= link_to "Log in", login_path %></li>
       <% end %>
