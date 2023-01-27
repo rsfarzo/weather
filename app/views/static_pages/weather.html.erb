@@ -7,7 +7,7 @@
   <body>
     <h1>Weather</h1>
     <strong>Button: get weather
-    New active records: 30k cities, favorites (1 User to many Geos)
+    To do: new AR/model favorites (1 User to many Geos, limit 4 favs)
     </strong>
     <br>
   <label for="location">
@@ -16,7 +16,7 @@
 	<datalist id="citystatelist" >
   <#% City.distinct.pluck(:state).sort.each do |state|%>
    <% City.order(state: :asc, name: :asc).each do |city|%>
-		<option id="<%= city.lng+","+city.lat%>" value="<%= city.name+", "+city.state %>"></option>
+		<option id="<%= city.lat+","+city.lng%>" value="<%= city.name+", "+city.state %>"></option>
   <% end %>
 	</datalist>
 </label>
