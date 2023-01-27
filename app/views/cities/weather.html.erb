@@ -6,11 +6,11 @@
 <% provide(:title, 'Weather Report') %>
 <!--h1>Weather</h1-->
 <%= link_to 'Back', :back %>
-<div>
+<!--div>
 Location:
 <% lat_long = "#{@city.lat},#{@city.lng}"  %>
 <%= "#{@city.name} #{@city.state}  #{lat_long}" %>
-</div>
+</div-->
 <%    
 require "http"
 url="https://api.weather.gov/points/#{lat_long}"
@@ -51,28 +51,34 @@ else
             now_period_name=forecastHourly_json.fetch("properties").fetch("periods").at(0).fetch("name")
             now_shortForecast=forecastHourly_json.fetch("properties").fetch("periods").at(0).fetch("shortForecast")
             now_detailedForecast=forecastHourly_json.fetch("properties").fetch("periods").at(0).fetch("detailedForecast")
+            now_temperature=forecastHourly_json.fetch("properties").fetch("periods").at(0).fetch("temperature")
+    
 
         %>
         <%#=forecastHourly_json.fetch("properties").fetch("periods").first%>
         <br>
         <table style="text-align:left">
-        <tr><td> <strong><%=forecast_city%>, <%=forecast_state%></strong></td></tr>
-        <tr><td>
-        <img src="<%=now_icon.gsub("small","large")%>" style="border-radius: 50%;">
-        </tr></td>
-        <tr><td>
-            <span><%= now_shortForecast%></span></tr></td>
-        <tr><td>
-            <%= forecast_datetime[0..9]+" "+forecast_datetime[11..15] %></tr></td>
+            <!--tr><td> <strong><%=forecast_city%>, <%=forecast_state%></strong></td></tr -->
+            <tr><td><%=forecast_city%>, <%=forecast_state%></td></tr>
+            <tr><td>Currently <%= now_temperature%>º and <%= now_shortForecast%>
+            </tr></td>
+            <!--
+            <tr><td>
+                <%= forecast_datetime[0..9]+" "+forecast_datetime[11..15] %></tr></td>
+            <tr><td> 
+            -->
+                <img src="<%=now_icon.gsub("small","large")%>" style="border-radius: 50%;">
+            </tr></td>
         </table></div>
+        </div><br>
+        <div style="padding-left: 20px;">
+            <%#=line_chart(nt)%>
+            <i style="padding-left: 50px;">Temperatures for the next <%=forecastHourly_json.fetch("properties").fetch("periods").size/24%> days:</i>
+            <%= line_chart nta, xtitle: "", ytitle: "Temperature F", width:"400px" %>
+            <%#= line_chart({"2021-01-01" => 2, "2021-01-02" => 3}) %>
+            <%#= line_chart( [ ['A', 2] , ['B',3], ['C',1.2]  ]) %>
+            <%#= geo_chart Medal.group(:country).count %>
         </div>
-
-        <%#=line_chart(nt)%>
-        <strong>Temperatures for the next <%=forecastHourly_json.fetch("properties").fetch("periods").size/24%> days:</strong>
-        <%= line_chart nta, xtitle: "", ytitle: "Temperature F" %>
-        <%#= line_chart({"2021-01-01" => 2, "2021-01-02" => 3}) %>
-        <%#= line_chart( [ ['A', 2] , ['B',3], ['C',1.2]  ]) %>
-        <%#= geo_chart Medal.group(:country).count %>
 <%
         end # forecastHourly_s.code==500
      end # forecast_response_s.code==500
