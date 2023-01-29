@@ -1,9 +1,11 @@
 # HOW TO SEPARATE SEEDS INTO SEPARATE FILES?
 
-=begin
+#=begin
 require 'csv'
+ct=0
 CSV.foreach(Rails.root.join('lib/uscities.csv'), headers: true) do |row|
-  
+  ct=ct+1
+  if ct<51
   City.create({
     name: row[0],
     state: row[1],
@@ -11,10 +13,11 @@ CSV.foreach(Rails.root.join('lib/uscities.csv'), headers: true) do |row|
     lng: row[3]
   })
 end
-=end
+end
+#=end
 # Generate a bunch of additional users.
-=begin
-99.times do |n|
+#=begin
+25.times do |n|
   name  = Faker::Name.name
   email = "user-#{n+1}@seed.org"
   password = "password"
@@ -23,4 +26,5 @@ end
                password:              password,
                password_confirmation: password)
 end
-=end
+#=end
+User.create(:name=>"Robert Admin",:email=>"robert@admin.org",:password=>"password",:password_confirmation=>"password",:admin=>true)
