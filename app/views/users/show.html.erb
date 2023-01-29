@@ -8,8 +8,13 @@
 <p><italic>Created:</italic> <%= @user.created_at %></p>
 <p><italic>Updated:</italic> <%= @user.updated_at %></p>
 <div>
-  <%= link_to "Edit this user", edit_user_path(@user) %> |
+  <% if current_user.admin? && !current_user?(@user) %>
+    <%= link_to "Edit this user", edit_user_path(@user) %> |
+  <% end %>
+
   <%= link_to "Back to users", users_path %>
 
-  <%= button_to "Destroy this user", @user, method: :delete %>
+  <% if current_user.admin? && !current_user?(@user) %>
+    <%= button_to "Destroy this user", @user, method: :delete %>
+  <% end %>
 </div>
