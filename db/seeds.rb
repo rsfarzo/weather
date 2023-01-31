@@ -16,7 +16,7 @@ CSV.foreach(Rails.root.join('lib/uscities.csv'), headers: true) do |row|
 end
 #=end
 # Generate a bunch of additional users.
-=begin
+#=begin
 25.times do |n|
   name  = Faker::Name.name
   email = "user-#{n+1}@seed.org"
@@ -28,4 +28,4 @@ end
 end
 #=end
 User.create(:name=>"Robert Admin",:email=>"robert@admin.org",:password=>"password",:password_confirmation=>"password",:admin=>true)
-=end
+#=end
