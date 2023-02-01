@@ -7,6 +7,9 @@
 <%#= render @user %>
 <p><italic>Created:</italic> <%= @user.created_at %></p>
 <p><italic>Updated:</italic> <%= @user.updated_at %></p>
+<% if current_user.admin? %>
+   <strong>Administrator</strong><br>
+<% end %>
 <div>
   <% if current_user.admin? && !current_user?(@user) %>
     <%= link_to "Edit this user", edit_user_path(@user) %> |

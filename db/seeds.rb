@@ -27,5 +27,5 @@ end
                password_confirmation: password)
 end
 #=end
-User.create(:name=>"Robert Admin",:email=>"robert@admin.org",:password=>"password",:password_confirmation=>"password",:admin=>true)
+User.create(:name=>"Admin",:email=>"admin@admin.org",:password=>"password",:password_confirmation=>"password",:admin=>true)
 #=end

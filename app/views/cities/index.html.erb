@@ -24,7 +24,7 @@ function get_location(input_loc) {
     document.getElementById("selected_location").innerHTML="Select a valid location from the list";
    }
    else {
-    document.getElementById("selected_location").innerHTML=input_loc.value+ " "+ geo;
+    document.getElementById("selected_location").innerHTML=input_loc.value; //+ " "+ geo;
     document.body.innerHTML += spinner;
     document.body.innerHTML += `<form id="dynForm" action="/cities/${geo}" method="get"></form>`;
     document.getElementById("dynForm").submit();
