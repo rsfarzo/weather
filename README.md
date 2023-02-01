@@ -1,6 +1,6 @@
 # todo 
 ## refactor
-- Authenticate: ddevise
+- Authenticate: devise
 - Authorize: pendant
 ## new
 - new model: favorites
