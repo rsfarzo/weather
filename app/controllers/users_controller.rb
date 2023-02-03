@@ -59,6 +59,7 @@ class UsersController < ApplicationController
     redirect_to users_url, status: :see_other
   end
 
+  # commented out code 😭
 #  def destroy
 #    @user.destroy
 #    respond_to do |format|

@@ -5,8 +5,8 @@
   <%= @user.name %>
 </h1>
 <%#= render @user %>
-<p><italic>Created:</italic> <%= @user.created_at %></p>
-<p><italic>Updated:</italic> <%= @user.updated_at %></p>
+<p><i>Created:</i> <%= @user.created_at %></p>
+<p><i>Updated:</i> <%= @user.updated_at %></p>
 <% if current_user.admin? %>
    <strong>Administrator</strong><br>
 <% end %>
