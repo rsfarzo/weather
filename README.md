@@ -8,6 +8,7 @@ This app pulls weather from noaa.  It uses a dataset of geo-locations. While I h
 - new model: favorites
 ## other
 - check authorization
+- seed files: multiples, preventing re-runs
 
 # To get started
 - bundle
