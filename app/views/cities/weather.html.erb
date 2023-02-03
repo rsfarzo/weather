@@ -13,6 +13,7 @@ Location:
 <%= "#{@city.name} #{@city.state}  #{lat_long}" %>
 </div-->
 <%# this api request logic should live in a service object %>
+<%# https://www.toptal.com/ruby-on-rails/rails-service-objects-tutorial %>
 <%    
 require "http"
 url="https://api.weather.gov/points/#{lat_long}"
