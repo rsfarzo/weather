@@ -40,5 +40,8 @@
 vendor/bundle
 .bundle/config
 
-/Guardfile
-/history*
+# Guard
+Guardfile
+
+# history
+history*
