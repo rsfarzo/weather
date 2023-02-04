@@ -35,3 +35,7 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# good practice to load gems into vendor/bundle for 
+vendor/bundle
+.bundle/config

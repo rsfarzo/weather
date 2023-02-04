@@ -4,6 +4,7 @@
 	City State (example: New York, NY) 
 	<input id="location" list="citystatelist"  onchange="get_location(this)">
 	<datalist id="citystatelist" >
+  <%# typo %>
   <#% City.distinct.pluck(:state).sort.each do |state|%>
    <% City.order(state: :asc, name: :asc).each do |city|%>
 		<option id="<%= city.id %>" value="<%= city.name+", "+city.state %>"></option>

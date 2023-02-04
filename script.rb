@@ -1,3 +1,4 @@
+# why is this here? what are you using it for? is it different that app/models/user.rb ?
 class User
     attr_accessor :email, :first_name , :last_name
     def initialize(attributes = {})
