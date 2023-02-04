@@ -24,6 +24,4 @@ code-review
 * Do you need to commit `Guardfile` and `history`? Might want to add to .gitignore 
 
 * I ran `rails test` and the tests all fail `Could not find table 'geos'`
-
-=======
-main
+**corrected: rails destroy model geos**
