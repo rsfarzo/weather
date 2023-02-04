@@ -1,2 +1,0 @@
-class Geo < ApplicationRecord
-end
