@@ -9,12 +9,14 @@ This app pulls weather from noaa.  It uses a dataset of geo-locations. While I h
 - new model: favorites
 ## other
 - check authorization
+- seed files: multiples, preventing re-runs
 
 # To get started
 - bundle
 - rails db:migrate
 - rails db:seed
 - rails s
+code-review
 
 
 
@@ -23,3 +25,5 @@ This app pulls weather from noaa.  It uses a dataset of geo-locations. While I h
 
 * I ran `rails test` and the tests all fail `Could not find table 'geos'`
 
+=======
+main
