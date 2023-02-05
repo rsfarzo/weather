@@ -5,8 +5,9 @@ This app pulls weather from noaa.  It uses a dataset of geo-locations. While I h
 <!-- do you mean pundit?  https://github.com/varvet/pundit -->
 - Authorize: pendant
 - move the javascript to separate files
-## new
+## future
 - new model: favorites
+- gem?
 ## other
 - check authorization
 - seed files: multiples, preventing re-runs
